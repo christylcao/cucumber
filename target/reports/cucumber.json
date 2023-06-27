@@ -1,0 +1,124 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-26T23:16:22.921Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1365214300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "techfio-billing-login-page-functionality-validation;user-should-be-able-to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1477157500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "steps.StepDefinition.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3267880600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User inputs \"username\" from mysql database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StepDefinition.user_inputs_from_mysql_database(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3068093900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User inputs \"password\" from mysql database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.StepDefinition.user_inputs_from_mysql_database(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3807981600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.StepDefinition.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6739500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User will be on dashboard page",
+            "match": {
+              "location": "steps.StepDefinition.user_will_be_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginWithDB"
+          },
+          {
+            "name": "@LoginScenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Techfio billing login page functionality validation",
+    "description": "",
+    "id": "techfio-billing-login-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/LoginWithSQLData.feature",
+    "tags": [
+      {
+        "name": "@LoginWithDB",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
